@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{0372cc5c-1f25-477d-8e4e-999c7f4ef588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\w32">
+      <UniqueIdentifier>{59a59a25-629d-4182-922e-fa2f063b5777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{c801e6e2-74a5-4ece-a735-0a01dd2ff573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\w32">
+      <UniqueIdentifier>{9b60a197-feff-4509-bc7d-00720cce17db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="32main.cpp">
+      <Filter>Source Files\w32</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="commands.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="inputcontrol.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="networkingclient.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="networkingserver.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="networking.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="fileTransfer.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="networking.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="32main.h">
+      <Filter>Header Files\w32</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="commands.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="inputcontrol.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="fileTransfer.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
